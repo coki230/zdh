@@ -22,8 +22,9 @@ public class AppiumFirst {
         desiredCapabilities.setCapability("platformVersion", "10.0");
         desiredCapabilities.setCapability("platformName","Android");
         desiredCapabilities.setCapability("browserName","Chrome");
-        desiredCapabilities.setCapability("deviceName","emulator");
+        desiredCapabilities.setCapability("deviceName","817c9726");
         desiredCapabilities.setCapability("chromedriverExecutable","/Users/xiao230/Desktop/soft/74.0.3729/chromedriver");
+
 
 
         WebDriver webDriver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), desiredCapabilities);
